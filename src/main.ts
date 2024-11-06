@@ -14,7 +14,7 @@ config({
 });
 
 const routes = [
-  { path: "/notes", component: Notes, props: true },
+  { path: "/", component: Notes, props: true },
   { path: "/notes/:id", component: Note, props: true },
   { path: "/:pathMatch(.*)*", component: PageNotFound },
 ];
