@@ -2,6 +2,8 @@
 
 Write and secure your notes using your wallet. This app allows you to write and store markdown notes locally, secured through a combination of an Ethereum wallet signature and AES-GCM encryption. The idea behind this pet project is that it’s much easier to use an existing security provider(which is your wallet) rather than remembering a password or storing your notes in the cloud.
 
+![image](images/overview.png)
+
 ## Local installation
 
 ### Step 1: Clone the Repository
