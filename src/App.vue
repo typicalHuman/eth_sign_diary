@@ -65,7 +65,7 @@ onMounted(() => {
             account.value = ""
             aesKey.value = null
             connected.value = false
-            router.replace({ path: "/notes" })
+            router.replace({ path: "/" })
         }
     })
 })
@@ -79,7 +79,7 @@ onMounted(() => {
             <div class="flex justify-between items-center">
                 <div class="flex flex-row gap-4 justify-center items-center">
 
-                    <RouterLink to="/notes">
+                    <RouterLink to="/">
                         <HomeIcon :size="30" :fillColor="'#c9c9c9'" />
                     </RouterLink>
                     <w3m-account-button balance="false" />

@@ -43,7 +43,7 @@ async function handleRemoveNote() {
   if (confirm("Do you really want to delete?")) {
     const success = await removeNote(noteId)
     if (success) {
-      router.replace({ path: "/notes" })
+      router.replace({ path: "/" })
     }
   }
 }
